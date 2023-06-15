@@ -1,0 +1,32 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    max-width: 1140px;
+    padding: 0 15px; 
+    /* отступ внутри блока */
+    margin: 0 auto;
+    /* внешний отступ блока */
+}
+.header{
+width: 100%;
+color:aliceblue;
+padding: 20px;
+background: rgb(56, 56, 56);
+box-sizing: border-box;
+}
+.menu-item{
+    list-style:none;
+
+}
+.menu-link{
+    text-decoration: none;
+    color:aliceblue;
+}
+.banner-section{
+    padding: 100px 0;
+    background: url(banner-bg.jpg);
+}
